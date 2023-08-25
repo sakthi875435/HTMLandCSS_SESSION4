@@ -1,0 +1,105 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 1350px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Header section */
+
+header {
+    padding: 10px 0px ;
+/* You will give 4 values X-axis Y-axis , Spreed, color */
+    box-shadow:0px 15px 10px #e4e3e3 ;
+}
+
+.header_logo {
+    width: 100px;
+    height: auto;
+}
+
+.logo_support {
+    margin-left: 5px;
+    font-size: 22px;
+    color: #767676;
+}
+
+.header_nav {
+    width: 250px;
+    margin-left: 50px;
+
+}
+
+.header_nav a {
+    text-decoration: none;
+    color: rgb(79, 79, 79);
+    margin: 0px 15px;
+}
+
+.header_nav a:hover {
+    color: black;
+}
+
+.header_btn {
+    margin-left:400px ;
+    width: 450px;
+}
+
+.header_btn a {
+    margin: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+.header_btn_one {
+    color: dodgerblue;
+}
+
+.header_btn_one:hover {
+    color: rgb(21, 94, 166);
+    background-color: rgb(194, 192, 192);
+}
+
+.header_btn_two {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header_btn_two:hover {
+    background-color: rgb(15, 94, 173);
+}
+
+/* Start of Title */
+
+.title {
+    margin-top: 50px;
+}
+
+.title_one {
+    width: 40%;
+    padding: 25%;
+}
+
+.title_one h1 {
+    font-size: 75px;
+}
+
+.title_two {
+    width: 50%;
+}
+
+.title_two video {
+    width: 80%;
+    margin: 10%;
+}
